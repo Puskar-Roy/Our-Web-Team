@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Poppins:wght@200&family=Roboto:wght@300;400&family=Work+Sans:wght@300&display=swap');
+.cardContainer {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+.profileDiv {
+  /* background-image: url("https://media.licdn.com/dms/image/D5603AQGWdODukzIhYg/profile-displayphoto-shrink_800_800/0/1685526998739?e=1691020800&v=beta&t=GHTuX4K_8x9EqSn2YPHigA2C3tpJC8GAnRp_7c6GSSk");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+  border-radius: 28px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(24, 24, 24);
+  transition-duration: .5s;
+  color: rgb(155, 155, 155);
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cardContainer:hover .profileDiv {
+  transform: translateX(-25%) translateY(-20%);
+  transition-duration: .5s;
+}
+
+.infoDiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  z-index: 1;
+}
+
+.nameDiv {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: aliceblue;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  gap: 2px;
+}
+
+.name {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+.role {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(48, 48, 48);
+  margin-bottom: 5px;
+}
+
+.socialDiv {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(14, 14, 14);
+  gap: 25px;
+}
+
+.infoDiv a {
+  width: 50%;
+}
+
+.socials {
+  width: 100%;
+  fill: rgb(14, 14, 14);
+}
+
+img {
+    height: 188px;
+    width: 174px;
+    border-radius: 100px;
+}
+
+
+/* ----------------------------- */
+.main {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 180px;
+    margin-top: 70px;
+}
+.heading{
+  text-align: center;
+  font-size: 50px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+margin-top: 20px;
+
+}
+
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif; */
